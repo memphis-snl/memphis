@@ -1,1 +1,4 @@
-This is the README file for benchmark problem 4.
+This folder contains an implementation of the CHiMaD Phase Field benchmark "problem 4" Elastic Precipitate problem using MEMPHIS.
+
+This benchmark problem looks into into (a) a coherent precipitate elastically stressed if a lattice parameter is mismatched between the matrix and precipitate phases, or (b) a volumetric elastic stresses arise for an incoherent precipitate due to thermal expansion mismatch with the matrix.
+Parametrization and simulation conditions are described at https://pages.nist.gov/pfhub/benchmarks/benchmark4.ipynb/
