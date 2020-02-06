@@ -1,1 +1,4 @@
-This is the README file for benchmark problem 7.
+This folder contains an implementation of the CHiMaD Phase Field benchmark "problem 7" MMS Allen-Cahn problem using MEMPHIS.
+
+This benchmark problem looks into into the so-called “Method of Manufactured Solutions”. MMS is a technique for verifying the accuracy of MEMPHIS.
+Parametrization and simulation conditions are described at https://pages.nist.gov/pfhub/benchmarks/benchmark7.ipynb/
