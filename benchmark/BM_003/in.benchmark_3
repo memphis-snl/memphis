@@ -1,0 +1,29 @@
+! *** Phase-field model settings
+
+phase-field_model             benchmark_3
+
+initial_seed                  0.0d0 0.0d0 0.0d0 8.0d0
+
+kinetic_coefficient           1.0d0
+interfacial_thickness         1.0d0
+
+anisotropy_strength           5.0d-2
+rotational_symmetry           4.0d0
+reference_orientation         0.0d0
+
+thermal_diffusivity           1.0d1
+thermal_undercooling          -3.0d-1
+
+! *** Numerical methods settings
+
+domain-size_physical          960 960 1
+domain-size_numerical         960 960 1
+
+time-step_size                1.0d-2
+time-step_iterations          150000
+
+output_diary-data             uniform 1500
+output_field-data             serial vtk binary uniform 3000
+
+phase_field                   explicit_euler n 0.0d0 n 0.0d0 n 0.0d0 n 0.0d0 p 0.0d0 p 0.0d0
+temperature_field             explicit_euler n 0.0d0 n 0.0d0 n 0.0d0 n 0.0d0 p 0.0d0 p 0.0d0
