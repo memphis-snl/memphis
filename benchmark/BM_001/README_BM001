@@ -1,3 +1,7 @@
 This folder contains an implementation of the CHiMaD Phase Field benchmark "problem 1" Spinodal Decomposition problem using MEMPHIS.
 
-This benchmark problem looks into the classical spinodal decomposition microstructure evolution problem. Two benchmark problems are tested here. They correspond to a square computational domain with side length of 200 units (dimensionless). In one case, periodic boundary conditions are applied to a square domain (problem 1(a)), while. in the other case, no-flux boundaries are applied to a square domain (problem 1(b)).
+This benchmark problem looks into the classical spinodal decomposition microstructure evolution problem.
+Two benchmark problems are tested here. They correspond to a square computational domain with side length of 200 units (dimensionless).
+In one case, periodic boundary conditions are applied to a square domain (problem 1(a)), while. in the other case, no-flux boundaries are applied to a square domain (problem 1(b)).
+
+Parametrization and simulation conditions are described at https://pages.nist.gov/pfhub/benchmarks/benchmark1.ipynb/
