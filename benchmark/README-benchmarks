@@ -1,2 +1,4 @@
 This folder contains the CHiMaD Phase Field benchmark problems using MEMPHIS.
 These benchmark problems are described and available on the National Institute of Standards and Technology (NIST) “PFHub” repository website (https://pages.nist.gov/pfhub/).
+
+Benchmark problems for MEMPHIS have been reviewed and approved under SAND No. SAND202-1629 W.
