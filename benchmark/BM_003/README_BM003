@@ -1,1 +1,4 @@
 This folder contains an implementation of the CHiMaD Phase Field benchmark "problem 3" Dendritic Growth problem using MEMPHIS.
+
+This benchmark problem looks into dendritic growth simulations.
+Parametrization and simulation conditions are described at https://pages.nist.gov/pfhub/benchmarks/benchmark3.ipynb/
