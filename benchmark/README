@@ -1,3 +1,2 @@
-This is the README file for MEMPHIS benchmark problems. These benchmark problems are
-described and available on the National Institute of Standards and
-Technology (NIST) “PFHub” repository website (https://pages.nist.gov/pfhub/).
+This folder contains the CHiMaD Phase Field benchmark problems using MEMPHIS.
+These benchmark problems are described and available on the National Institute of Standards and Technology (NIST) “PFHub” repository website (https://pages.nist.gov/pfhub/).
