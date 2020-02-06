@@ -1,2 +1,12 @@
 # memphis
-This is the Mesoscale Multi-Physics Phase-Field Simulator (MEMPHIS) software
+MEMPHIS is a multi-physics phase-field modeling capability. The acronym MEMPHIS stands for Mesoscale Multi-Physics Phase-Field Simulator. It is freely available to researchers around the world under the terms of the GNU General Public License.
+
+The current version of the code can be requested from the corresponding author (rdingre@sandia.gov) and is distributed at the discretion of Sandia National Laboratories through the Center for Integrated Nanotechnologies (CINT) User Program.
+
+MEMPHIS is written in modular Fortran to enable rapid model development and prototyping, and performs 2D and 3D calculations in serial or in parallel using message-passing techniques and spatial decomposition of the computational domain. The modular framework of MEMPHIS is designed such that any user can focus solely on the development and implementation of a self-contained physics-based model without the need for extensive software-development experience to seamlessly integrate a user’s model in MEMPHIS. The current capability (i.e., 2019) comprises a spinodal decomposition model, dendritic growth model, a physical vapor deposition model, a quantum dot growth model, and a linear elasticity model.Researchers active in the field of coevolution of microstructure and physical properties at the mesoscale are encouraged to participate in the project by contributing/implementing their own models into MEMPHIS.
+
+To validate both the correctness of the numerical methods and models, along with the overall capabilities implemented in MEMPHIS, we utilized published phase-field benchmark problems to verify and validate every component of this phase-field capability. These benchmark problems are described elsewhere [2,3] and are available on the National Institute of Standards and Technology (NIST) “PFHub” repository website (https://pages.nist.gov/pfhub/).
+
+[1] J.A. Stewart and R. Dingreville. Microstructure morphology and concentration modulation of nanocomposite thin-films during simulated physical vapor deposition. Acta Mater., in press., 2020.
+[2] A.M. Jokisaari, P.W. Voorhees, J.E. Guyer, J. Warren, and O.G. Heinonen. Benchmark problems for numerical implementations of phase-field models. Comput. Mater. Sci., 126:139–151, 2017.
+[3] A.M. Jokisaari, P.W. Voorhees, J.E. Guyer, J. Warren, and O.G. Heinonen. Phase-field benchmark problems for dendritic growth and linear elasticity. Comput. Mater. Sci., 149:336–347, 2018.
