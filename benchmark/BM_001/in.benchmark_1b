@@ -1,0 +1,23 @@
+! *** Phase-field model settings
+
+phase-field_model             benchmark_1
+
+mobility_coefficient          5.0d0
+free-energy_barrier           5.0d0
+gradient-energy_coefficient   2.0d0
+
+equilibrium_compositions      0.3d0 0.7d0
+initial-noise_values          0.5d0 1.0d-2
+
+! *** Numerical methods settings
+
+domain-size_physical          200 200 1
+domain-size_numerical         200 200 1
+
+time-step_size                1.0d-3
+time-step_iterations          100000000
+
+output_diary-data             logfreq1 100 9 10
+output_field-data             serial vtk binary uniform 2500000
+
+phase_field                   explicit_euler n 0.0d0 n 0.0d0 n 0.0d0 n 0.0d0 n 0.0d0 n 0.0d0
